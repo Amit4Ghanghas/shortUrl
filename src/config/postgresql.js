@@ -10,7 +10,6 @@ const connectionPool = new Pool({
 })
 
 
-
 connectionPool.connect().then(
     module.exports = {
             connectionPool: connectionPool,
