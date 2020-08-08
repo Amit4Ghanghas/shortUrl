@@ -1,0 +1,28 @@
+{
+  "name": "shorturl",
+  "version": "1.0.0",
+  "description": "to shorten the url",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon urlServer.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit4Ghanghas/shortUrl.git"
+  },
+  "author": "Amit Ghanghas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0",
+    "pg-escape": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Amit4Ghanghas/shortUrl/issues"
+  },
+  "homepage": "https://github.com/Amit4Ghanghas/shortUrl#readme"
+}
